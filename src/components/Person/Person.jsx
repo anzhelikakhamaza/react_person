@@ -3,7 +3,7 @@ import React from 'react';
 export const Person = ({ person }) => {
   // eslint-disable-next-line no-param-reassign
   const isMarried = person.partnerName;
-  const partnerType = person.sex === 'male' ? 'wife' : 'husband';
+  const partnerType = person.sex === 'm' ? 'wife' : 'husband';
 
   return (
     <section className="Person">
